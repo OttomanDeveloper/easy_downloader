@@ -333,7 +333,7 @@ class DownloadManagerIsolate {
     );
     // ignore: deprecated_member_use
     final chunkReader = ChunkedStreamIterator(response);
-    final bufferSize = 512.kilobytes();
+    final bufferSize = 950.kilobytes();
     while (true) {
       var event = <int>[];
       try {
